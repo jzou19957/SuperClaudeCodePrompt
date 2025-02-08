@@ -6,7 +6,8 @@ With this system prompt, Claude will consistently generate long, uninterrupted c
 
 My assumption about why this works is that even though Anthropic has this line in their system prompt "
 
-6. Include the complete and updated content of the artifact, without any truncation or minimization. Don't use "// rest of the code remains the same..."."
+<6. Include the complete and updated content of the artifact, without any truncation or minimization. Don't use "// rest of the code remains the same...".">
+   
 Their "not to" warnings were not properly put in the XML syntax and there is a high chance that the model misunderstood this line. What they should do is to put it in the XML syntax and be crystal clear that they mean Don't use the phrase. Otherwise "// rest of the code remains the same..."." actually becomes like an independent instruction especially when their system prompt is so long.
 
 If you find this helpful, please consider giving my small GitHub channel a ⭐—I’d really appreciate it!
