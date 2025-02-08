@@ -5,7 +5,7 @@ This system prompt is designed to encourage Claude to generate one continuous lo
 ![f00271d06db19cb4bbe4beb5de37852](https://github.com/user-attachments/assets/a224deaa-0f61-4e97-ab56-81e5fa57c277)
 
 
-########################
+------------------------------------------------------------------------------------------------------------------------------------------------------------
   
   
   <Universal_System_Prompt_For_Full_Continuous_Code_Output>
