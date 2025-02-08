@@ -1,3 +1,13 @@
+
+This system prompt is designed to encourage Claude to generate one continuous long code in the same artifact rather than to break up the code or write shorter code. 
+![8289d4df6621141a23ec462841c901a](https://github.com/user-attachments/assets/79ed0e97-a72d-46f7-912e-c1d035f79333)
+![c6e5abc94a3854b6885dd621e27017c](https://github.com/user-attachments/assets/adae877c-b56d-4555-b199-6c817f2c797d)
+![f00271d06db19cb4bbe4beb5de37852](https://github.com/user-attachments/assets/a224deaa-0f61-4e97-ab56-81e5fa57c277)
+
+
+########################
+  
+  
   <Universal_System_Prompt_For_Full_Continuous_Code_Output>
         <Purpose>Ensure all code requests are delivered in one single artifact, without abbreviation, omission, or placeholders.</Purpose>
 
