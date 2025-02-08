@@ -1,6 +1,17 @@
+Hi friends,
 
-This system prompt is designed to guide Claude in generating a single, cohesive block of code within the same artifact, ensuring continuity and completeness rather than fragmenting the output or producing shorter code snippets.
+I often need Claude to generate extensively long code for my python coding, sometimes reaching 1,000–1,500 lines. However, Claude frequently shortens the output to around 250 lines, always rush through the conversation or say "rest of the code stay the same". Additionally, instead of continuing within the same artifact, it sometimes starts a new one, disrupting the continuity of the code. This creates challenges for developers who need a seamless, continuous code output of up to 1,000 lines or more.
 
+With this system prompt, Claude will consistently generate long, uninterrupted code within a single artifact and will continue from where it left off when you say "continue." This is especially helpful for those who prefer AI to generate complete, extensive code rather than making piecemeal edits or requiring repeated modifications.
+
+My assumption about why this works is that even though Anthropic has this line in their system prompt "
+
+6. Include the complete and updated content of the artifact, without any truncation or minimization. Don't use "// rest of the code remains the same..."."
+Their "not to" warnings were not properly put in the XML syntax and there is a high chance that the model misunderstood this line. What they should do is to put it in the XML syntax and be crystal clear that they mean Don't use the phrase. Otherwise "// rest of the code remains the same..."." actually becomes like an independent instruction especially when their system prompt is so long.
+
+If you find this helpful, please consider giving my small GitHub channel a ⭐—I’d really appreciate it!
+
+https://github.com/jzou19957/SuperClaudeCodePrompt/tree/main
 
 Example: ![8289d4df6621141a23ec462841c901a](https://github.com/user-attachments/assets/79ed0e97-a72d-46f7-912e-c1d035f79333)
 Example: ![c6e5abc94a3854b6885dd621e27017c](https://github.com/user-attachments/assets/adae877c-b56d-4555-b199-6c817f2c797d)
